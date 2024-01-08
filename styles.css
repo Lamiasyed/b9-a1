@@ -1,44 +1,47 @@
 #banner{
     margin: 80px 50px;
-
    border-radius: 16px 16px 16px 16px;
-    text-align: center;
-    font-size: 50px;
-    font-style: normal;
-    color: #fff;
-
-
-
+   color: #fff;
+    display: flex;
+  justify-content: center middle;
+  flex-direction: column;
+  align-items: center middle;
+text-align: center ;
+font-size: 80px;
+font-style: normal;
+font-weight: 900;
+line-height: 85px;
 }
-
 .banner-main{
-    background-image: url('resources/Banner\ Image.png');
-    padding: 233px 322px;
-    background-repeat: no-repeat;
+    Background:linear-gradient(to bottom,black, transparent),url('/resources/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+
 }
 #heading h1{
-    color: red;
-
+    color:red;
 text-align: center;
 font-size: 88px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+
 #heading h3{
     color: red;
-
-text-align: center;
-
-font-style: normal;
-font-weight: 700;
+ text-align: center;
+ font-style: normal;
+font-size: 27px;
+font-weight: 500;
 line-height: normal;
 }
+
 #heading h2{
     color: #070211;
-    
     text-align: center;
-    font-size: 48px;
+    font-size: 58px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -49,9 +52,59 @@ line-height: normal;
     margin: 0 auto;
     
 }
-.vector{
+.vector-main{
     background-image: url('./resources/New\ Year\ Photo.png');
     width: 802.9px;
 height: 500px;
 flex-shrink: 0;
 }
+#party{
+    margin: 80px 50px;
+
+    border-radius: 16px 16px 16px 16px;
+    color: #fff;
+ text-align: left ;
+ font-size: 80px;
+ font-style: normal;
+ 
+}
+.mid-night{
+background-image: linear-gradient(to bottom,black, transparent),url("./resources/Vectorrr.png");
+ background-repeat: no-repeat;
+background-position: center;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+
+}
+.mid-content{
+    justify-content: center middle;
+    padding-top: 100px;
+padding-left: 125px;
+}
+.mid-content h4{
+     font-size: 80px;
+ font-weight: 800px;
+     color: #FFFFFF;
+     text-align: left;
+    line-height: 95px;
+    }
+    .mid-content p{
+     width: 697px;
+     font-size: 18px;
+    color: #FFFFFF;
+     text-align: left;
+ line-height: 36px;
+ padding-bottom: 30px;
+    }
+    .mid-content a{
+     font-size: 20px;
+ font-weight: bold;
+ padding-left: 25px;
+     color: #FFFFFF;
+text-decoration: none;
+    
+    
+    
+    }
