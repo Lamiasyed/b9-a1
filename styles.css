@@ -299,9 +299,7 @@ text-decoration: none;
         position: relative;
         padding: 0;
         margin: 0;
-        
-    
-    }
+    }    
     .holidaybox-right img{   
         width: 429px;
         height: 440px;
@@ -328,3 +326,200 @@ text-decoration: none;
         z-index: 100;
        
     }
+
+    .card-section{
+        padding: 45px 0px;
+      
+    
+    }
+    .card-content span{
+        font-size: 24px;
+        text-align: left;
+        color: #FF0000;
+        font-weight: 400;
+       
+    
+    }
+    .card-content h1{
+        font-size: 48px;
+        text-align: left;
+        color: #070211;
+        font-weight: bold;
+        padding-top: 15px;
+    
+    }
+    .card-content p{
+        width: 896px;
+        font-size: 20px;
+        text-align: left;
+        color: #070211;
+        padding-top: 25px;
+    
+    }
+    .card-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 45px;
+    }
+    .box img{
+        width: 424px;
+        height: 450px;
+        margin-bottom: 20px;
+    }
+    
+    .main-section{
+        
+        align-items: center;
+        margin-top: 45px 0px;
+    }
+    .mail-content{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffe5e5;
+    }
+    .mail-photo{
+        display:flex;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+    .mail-content h3{
+        font-size: 48px;
+        text-align: center;
+        padding-top: 25px 0px;
+        color: #070211;
+        font-weight: bold;
+    }
+    .mail-content p{
+        width: 896px;
+        font-size: 20px;
+        color: #070211;
+        text-align: center;
+        padding-bottom:25px ;
+        margin: auto;
+    }
+    .form-section{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .mail-content form{
+       
+        padding: 25px 0px 75px 0px;
+    }
+    .mail-content  form input{
+        width: 450px;
+        height: 72px;
+        margin: auto;
+        text-align: left;
+        padding-left: 15px;
+        font-size: 20px;
+        color: #070211;
+        border-radius: 15px;
+        border: 0;
+    }
+    .mail-content form button{
+        width: 210px;
+        height: 72px;
+        border: 0;
+        background-color: #FF0000;
+        color: #FFFFFF;
+        font-size: 20px;
+        border-radius: 15px;
+        border: 0;
+    }
+    .footer{
+        background-color: #070211;
+        padding:100px 0px;
+        margin-top: 75px;
+    }
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .footer-left p{
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 400px;
+        line-height: 36px;
+    
+    }
+    .footer-first-list{
+        display: block;
+        align-items: center;
+        margin-right: 200px;
+    }
+    .footer-first-list li{
+        list-style: none;
+        margin-top: 5px;
+     
+    
+    }
+    .footer-first-list li img{
+        margin-top: 5px;
+        width: 24px;
+        height: 24px;
+       
+    }
+    .footer-first-list li a{
+        font-size: 20px;
+        font-weight: 400;
+        color: #FFFFFF;
+        padding-left: 15px;
+        text-decoration: none;
+    }
+
+.footer-first-list li{
+    list-style: none;
+    margin-top: 5px;
+ 
+
+}
+.footer-first-list li img{
+    margin-top: 5px;
+    width: 24px;
+    height: 24px;
+   
+}
+.footer-first-list li a{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.icon-section{
+    padding: 45px 0px;
+}
+.icon-section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-section ul li{
+    margin: 0px 10px;
+}
+.icon-section ul li img{
+    width: 64px;
+    height: 64px;
+}
+hr{
+    background: #FF0000;
+}
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+.copy-right small{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+}
